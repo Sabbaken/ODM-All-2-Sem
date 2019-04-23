@@ -1,0 +1,7 @@
+﻿  ODM Laba 3.cpp
+C:\Users\Kirill\YandexDisk\ВУЗ\1 Курс\ОДМ\№3 (Графики)\ODM Laba 3\ODM Laba 3\ODM Laba 3.cpp(71,44): error C2429:  для функция языка "структурированные привязки" нужен флаг компилятора "/std:c++17"
+C:\Users\Kirill\YandexDisk\ВУЗ\1 Курс\ОДМ\№3 (Графики)\ODM Laba 3\ODM Laba 3\ODM Laba 3.cpp(72,19): error C2065:  second: необъявленный идентификатор
+C:\Users\Kirill\YandexDisk\ВУЗ\1 Курс\ОДМ\№3 (Графики)\ODM Laba 3\ODM Laba 3\ODM Laba 3.cpp(72,26): error C2065:  first: необъявленный идентификатор
+C:\Users\Kirill\YandexDisk\ВУЗ\1 Курс\ОДМ\№3 (Графики)\ODM Laba 3\ODM Laba 3\ODM Laba 3.cpp(79,50): error C2429:  для функция языка "структурированные привязки" нужен флаг компилятора "/std:c++17"
+C:\Users\Kirill\YandexDisk\ВУЗ\1 Курс\ОДМ\№3 (Графики)\ODM Laba 3\ODM Laba 3\ODM Laba 3.cpp(80,74): error C3481:  second: передаваемая переменная в лямбда-выражении не найдена
+C:\Users\Kirill\YandexDisk\ВУЗ\1 Курс\ОДМ\№3 (Графики)\ODM Laba 3\ODM Laba 3\ODM Laba 3.cpp(84,20): error C2065:  first: необъявленный идентификатор

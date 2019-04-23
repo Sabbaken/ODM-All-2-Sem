@@ -21,11 +21,12 @@ int main() {
 	int *A, *B;
 	int mA, mB, mC, mD, mR, mY, mE, mP, mS;
 	int i, Operaziya = 0, ZMA = 0, ZMB = 0;
-	cout << "Введите мощность множества А (от 0 до 100):  ";
+	//Элементы мн-ва натуральные числа от 0 до 400
+	cout << "Введите мощность множества А (от 0 до 20):  ";
 	cin >> mA;
 	A = new int[mA];
 	cout << endl;
-	cout << "Введите мощность множества B (от 0 до 100):  ";
+	cout << "Введите мощность множества B (от 0 до 20):  ";
 	cin >> mB;
 	B = new int[mB];
 	cout << endl
@@ -181,12 +182,13 @@ int *Talk_A(int n) {
 		return A;
 	}
 	for (int x = 0; x < n; x++) {
-		a = 4 * (x + 1) + 2 * (n - x);
+		a = 3*x+7;
 		A[x] = a;
 		cout << endl << a << " ";
 	}
 	return A;
 }
+
 int *Talk_B(int m) {
 	int *B = new int[m];
 	int b = 0;
@@ -196,19 +198,18 @@ int *Talk_B(int m) {
 		return B;
 	}
 	for (int y = 0; y < m; y++) {
-		b = 2 * (m - y) + 3 * y;
+		b = y + 8;
 		B[y] = b;
 		cout << endl << b << " ";
 	}
 	return B;
 }
+
 void neto() {
 	cout << endl
 		<< endl
 		<< endl
-		<< " Sirius li? Там нет такой цифры. Код привередливый, код сломан!!!\n "
-		"ПЕРЕзапускай ПроГРаМММУУУУУ.....\n "
-		"EROoorr........Ereoreorr............"
+		<< "........Error............"
 		<< endl
 		<< endl
 		<< endl;
